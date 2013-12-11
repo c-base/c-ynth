@@ -6,6 +6,8 @@
 
 [Advanced Atari Punk Console](http://www.getlofi.com/?page_id=1395)
 
+[yusynth - modular synth project](http://www.yusynth.net/Modular/index_en.html)
+
 [Simple Sequencer](http://little-scale.blogspot.de/2007/06/simple-sequencer.html)
 
 [40106 Oscillator](http://fluxmonkey.com/electronoize/40106Oscillator.htm)
