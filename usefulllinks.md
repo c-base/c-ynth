@@ -13,3 +13,17 @@
 [40106 Oscillator](http://fluxmonkey.com/electronoize/40106Oscillator.htm)
 
 [Sinusgeneratoren und der SC-Sinusgenerator](http://www.elektronik-kompendium.de/public/schaerer/scsing.htm)
+
+
+Step Sequencers
+===============
+
+[Skip Step Baby 10 Sequencer](http://electroweb.000space.com/modular/skip_step_baby_10/index.html)
+
+[4017 "baby sequencer" 10 Step Sequencer](http://charlieslick.blogspot.de/2013/03/4017-10-sequencer-baby-sequencer.html)
+
+[Atari Punk Sequencer: Breadboarding and Planning](http://taintpaul.com/?cat=16&order=asc)
+
+[BABY_10 mini sequencer](http://modular.fonik.de/Page22.html)
+
+[8 Step Sequencer Assembly Instructions](http://www.synthrotek.com/kit-assembly-instructions/sequencer-assembly-instructions/8-step-sequencer-assembly-instructions/)
