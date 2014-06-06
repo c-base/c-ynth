@@ -27,3 +27,8 @@ Step Sequencers
 [BABY_10 mini sequencer](http://modular.fonik.de/Page22.html)
 
 [8 Step Sequencer Assembly Instructions](http://www.synthrotek.com/kit-assembly-instructions/sequencer-assembly-instructions/8-step-sequencer-assembly-instructions/)
+
+
+
+
+[How to add Velocity sensitivity / Aftertouch to Piano toy midi controller](http://www.codetinkerhack.com/2013/01/how-to-add-velocity-aftertouch-midi.html)
