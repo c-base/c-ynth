@@ -12,3 +12,4 @@
 | CEM3330	 | VCF	                         | rare - used in vintage synths                                             |
 | SSM2033	 | VCO	                         | rare                                                                      |
 | ICL8038  | VCO                           | Sinus/Triangle Generator based on a Squarewave                            |
+| PT2399   | Delay IC                      | Creating delay and echo effects mostly used in guitar pedales             |
