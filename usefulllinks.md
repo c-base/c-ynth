@@ -14,6 +14,11 @@
 
 [Sinusgeneratoren und der SC-Sinusgenerator](http://www.elektronik-kompendium.de/public/schaerer/scsing.htm)
 
+[kaustic machines](http://compiler.kaustic.net/machines/)
+
+[runoffgroove](http://www.runoffgroove.com/articles.html)
+
+[musicfromouterspace.com](http://www.musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1670&VPH=811)
 
 Step Sequencers
 ===============
