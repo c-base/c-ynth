@@ -22,6 +22,10 @@
 
 [Circuitsnippets](http://www.jiggawoo.eclipse.co.uk/guitarhq/Circuitsnippets/snippets.html)
 
+[Elliott Sound Products](http://sound.westhost.com/p-list.htm)
+
+[Ken Stone's modular synthesizer page](http://www.cgs.synth.net/)
+
 Step Sequencers
 ===============
 
