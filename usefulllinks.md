@@ -20,6 +20,8 @@
 
 [musicfromouterspace.com](http://www.musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&VPW=1670&VPH=811)
 
+[Circuitsnippets](http://www.jiggawoo.eclipse.co.uk/guitarhq/Circuitsnippets/snippets.html)
+
 Step Sequencers
 ===============
 
