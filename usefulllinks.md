@@ -26,6 +26,8 @@
 
 [Ken Stone's modular synthesizer page](http://www.cgs.synth.net/)
 
+[Paul In The Lab](http://www.paulinthelab.com/)
+
 Step Sequencers
 ===============
 
