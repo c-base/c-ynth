@@ -28,6 +28,8 @@
 
 [Paul In The Lab](http://www.paulinthelab.com/)
 
+[Design Your Own Distortion](http://www.generalguitargadgets.com/how-to-build-it/technical-help/articles/design-distortion/)
+
 Step Sequencers
 ===============
 
