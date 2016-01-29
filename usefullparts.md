@@ -18,3 +18,4 @@
 | UAF42    | Universal Active Filter       | Pretty nice and simple High/Low/Bandpass Filter                           |
 | DRV134PA | Balanced Line Driver          | Line Audio to XLR converter                                               |
 | INA134PA | Balanced Line Receiver        | XLR Audio to Line converter                                               |
+| MSGEQ7   | Graphic EQ Display Filter     | Fancy EQ Display                                                          |
