@@ -19,3 +19,4 @@
 | DRV134PA | Balanced Line Driver          | Line Audio to XLR converter                                               |
 | INA134PA | Balanced Line Receiver        | XLR Audio to Line converter                                               |
 | MSGEQ7   | Graphic EQ Display Filter     | Fancy EQ Display                                                          |
+| NJM2073  | Stereo Audio Amp              | DUAL LOW VOLTAGE POWER AMPLIFIER                                          |
