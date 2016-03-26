@@ -1,4 +1,4 @@
-update=Sa 26 Mär 2016 19:06:50 CET
+update=Sa 26 Mär 2016 23:01:59 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/woodworker/dev/github/c-base/kicad-cbase-library
+LibDir=../../kicad-cbase-library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
