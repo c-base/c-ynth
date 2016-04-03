@@ -20,3 +20,4 @@
 | INA134PA | Balanced Line Receiver        | XLR Audio to Line converter                                               |
 | MSGEQ7   | Graphic EQ Display Filter     | Fancy EQ Display                                                          |
 | NJM2073  | Stereo Audio Amp              | DUAL LOW VOLTAGE POWER AMPLIFIER                                          |
+| LT1054   | Voltage Converter             | Generating a negative voltage                                             |
