@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SchrittMacher-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -61,7 +62,7 @@ F 3 "" H 3450 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-SchrittMacher RV1
 U 1 1 56EA9787
 P 4700 2600
 F 0 "RV1" H 4700 2520 50  0000 C CNN
@@ -137,8 +138,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 2400 4700 2400
 Wire Wire Line
-	3950 2600 4550 2600
-Wire Wire Line
 	4700 2350 4700 2450
 Connection ~ 4700 2400
 Wire Wire Line
@@ -147,16 +146,6 @@ Wire Wire Line
 	4700 2000 4700 2050
 Wire Wire Line
 	2950 2600 2850 2600
-Wire Wire Line
-	4700 2750 4700 3300
-Wire Wire Line
-	4300 2600 4300 2800
-Connection ~ 4300 2600
-Wire Wire Line
-	4300 3100 4300 3200
-Wire Wire Line
-	4300 3200 4700 3200
-Connection ~ 4700 3200
 Wire Wire Line
 	2950 2400 2650 2400
 Wire Wire Line
@@ -169,7 +158,6 @@ Wire Wire Line
 	2400 3200 4050 3200
 Wire Wire Line
 	4050 3200 4050 2600
-Connection ~ 4050 2600
 Wire Wire Line
 	2650 2950 2650 2850
 $Comp
@@ -206,12 +194,25 @@ Connection ~ 3150 1700
 $Comp
 L CP C2
 U 1 1 5710E7C6
-P 4300 2950
-F 0 "C2" H 4325 3050 50  0000 L CNN
-F 1 "2.2uF" H 4325 2850 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 4338 2800 50  0001 C CNN
-F 3 "" H 4300 2950 50  0000 C CNN
-	1    4300 2950
+P 4700 3050
+F 0 "C2" H 4725 3150 50  0000 L CNN
+F 1 "2.2uF" H 4725 2950 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 4738 2900 50  0001 C CNN
+F 3 "" H 4700 3050 50  0000 C CNN
+	1    4700 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4550 2600 4550 2400
+Connection ~ 4550 2400
+Wire Wire Line
+	4700 3300 4700 3200
+Wire Wire Line
+	4700 2900 4700 2750
+Wire Wire Line
+	4700 2800 4050 2800
+Connection ~ 4050 2800
+Connection ~ 4700 2800
+Wire Wire Line
+	4050 2600 3950 2600
 $EndSCHEMATC

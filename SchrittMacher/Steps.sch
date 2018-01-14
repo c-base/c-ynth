@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SchrittMacher-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,9 +45,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D1
+L LED-RESCUE-SchrittMacher D1
 U 1 1 56E91BB6
 P 950 1100
+AR Path="/56E91BB6" Ref="D1"  Part="1" 
+AR Path="/56E7296A/56E91BB6" Ref="D1"  Part="1" 
 F 0 "D1" H 950 1200 50  0000 C CNN
 F 1 "LED" H 950 1000 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 950 1100 50  0001 C CNN
@@ -100,15 +103,10 @@ F 1 "1N914" H 1250 2300 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 1250 2400 50  0001 C CNN
 F 3 "" H 1250 2400 50  0000 C CNN
 	1    1250 2400
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	1250 2150 1250 2250
-Wire Wire Line
-	1450 2200 1250 2200
-Connection ~ 1250 2200
 $Comp
-L POT RV2
+L POT-RESCUE-SchrittMacher RV2
 U 1 1 56E91BE0
 P 1450 1300
 F 0 "RV2" H 1450 1220 50  0000 C CNN
@@ -132,13 +130,11 @@ F 3 "" H 1750 2300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1450 2200 1450 2800
-Wire Wire Line
 	1450 2800 1750 2800
 Wire Wire Line
 	1450 1800 1650 1800
 Wire Wire Line
-	1450 1450 1450 1800
+	1450 1450 1450 2150
 Wire Wire Line
 	1600 1300 1650 1300
 Text HLabel 950  2150 3    60   Input ~ 0
@@ -152,9 +148,11 @@ GND
 Text HLabel 1850 1800 1    60   Output ~ 0
 RESET
 $Comp
-L LED D2
+L LED-RESCUE-SchrittMacher D2
 U 1 1 56EA46BA
 P 2600 1100
+AR Path="/56EA46BA" Ref="D2"  Part="1" 
+AR Path="/56E7296A/56EA46BA" Ref="D2"  Part="1" 
 F 0 "D2" H 2600 1200 50  0000 C CNN
 F 1 "LED" H 2600 1000 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 2600 1100 50  0001 C CNN
@@ -210,13 +208,8 @@ F 3 "" H 2900 2400 50  0000 C CNN
 	1    2900 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2900 2150 2900 2250
-Wire Wire Line
-	3100 2200 2900 2200
-Connection ~ 2900 2200
 $Comp
-L POT RV3
+L POT-RESCUE-SchrittMacher RV3
 U 1 1 56EA46DE
 P 3100 1300
 F 0 "RV3" H 3100 1220 50  0000 C CNN
@@ -240,13 +233,11 @@ F 3 "" H 3400 2300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 2200 3100 2800
-Wire Wire Line
 	3100 2800 3400 2800
 Wire Wire Line
 	3100 1800 3300 1800
 Wire Wire Line
-	3100 1450 3100 1800
+	3100 1450 3100 2150
 Wire Wire Line
 	3250 1300 3300 1300
 Text HLabel 2600 2150 3    60   Input ~ 0
@@ -268,9 +259,11 @@ GND
 Wire Wire Line
 	2600 900  2600 850 
 $Comp
-L LED D3
+L LED-RESCUE-SchrittMacher D3
 U 1 1 56E7157F
 P 4300 1100
+AR Path="/56E7157F" Ref="D3"  Part="1" 
+AR Path="/56E7296A/56E7157F" Ref="D3"  Part="1" 
 F 0 "D3" H 4300 1200 50  0000 C CNN
 F 1 "LED" H 4300 1000 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 4300 1100 50  0001 C CNN
@@ -326,13 +319,8 @@ F 3 "" H 4600 2400 50  0000 C CNN
 	1    4600 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4600 2150 4600 2250
-Wire Wire Line
-	4800 2200 4600 2200
-Connection ~ 4600 2200
 $Comp
-L POT RV4
+L POT-RESCUE-SchrittMacher RV4
 U 1 1 56E715A3
 P 4800 1300
 F 0 "RV4" H 4800 1220 50  0000 C CNN
@@ -356,13 +344,11 @@ F 3 "" H 5100 2300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4800 2200 4800 2800
-Wire Wire Line
 	4800 2800 5100 2800
 Wire Wire Line
 	4800 1800 5000 1800
 Wire Wire Line
-	4800 1450 4800 1800
+	4800 1450 4800 2150
 Wire Wire Line
 	4950 1300 5000 1300
 Text HLabel 4300 2150 3    60   Input ~ 0
@@ -380,9 +366,11 @@ GND
 Wire Wire Line
 	4300 900  4300 850 
 $Comp
-L LED D4
+L LED-RESCUE-SchrittMacher D4
 U 1 1 56E82BAC
 P 6000 1100
+AR Path="/56E82BAC" Ref="D4"  Part="1" 
+AR Path="/56E7296A/56E82BAC" Ref="D4"  Part="1" 
 F 0 "D4" H 6000 1200 50  0000 C CNN
 F 1 "LED" H 6000 1000 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 6000 1100 50  0001 C CNN
@@ -438,13 +426,8 @@ F 3 "" H 6300 2400 50  0000 C CNN
 	1    6300 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6300 2150 6300 2250
-Wire Wire Line
-	6500 2200 6300 2200
-Connection ~ 6300 2200
 $Comp
-L POT RV5
+L POT-RESCUE-SchrittMacher RV5
 U 1 1 56E82BD5
 P 6500 1300
 F 0 "RV5" H 6500 1220 50  0000 C CNN
@@ -468,13 +451,11 @@ F 3 "" H 6800 2300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6500 2200 6500 2800
-Wire Wire Line
 	6500 2800 6800 2800
 Wire Wire Line
 	6500 1800 6700 1800
 Wire Wire Line
-	6500 1450 6500 1800
+	6500 1450 6500 2150
 Wire Wire Line
 	6650 1300 6700 1300
 Text HLabel 6000 2150 3    60   Input ~ 0
@@ -492,9 +473,11 @@ GND
 Wire Wire Line
 	6000 900  6000 850 
 $Comp
-L LED D5
+L LED-RESCUE-SchrittMacher D5
 U 1 1 56E82EF2
 P 7700 1100
+AR Path="/56E82EF2" Ref="D5"  Part="1" 
+AR Path="/56E7296A/56E82EF2" Ref="D5"  Part="1" 
 F 0 "D5" H 7700 1200 50  0000 C CNN
 F 1 "LED" H 7700 1000 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 7700 1100 50  0001 C CNN
@@ -550,13 +533,8 @@ F 3 "" H 8000 2400 50  0000 C CNN
 	1    8000 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8000 2150 8000 2250
-Wire Wire Line
-	8200 2200 8000 2200
-Connection ~ 8000 2200
 $Comp
-L POT RV6
+L POT-RESCUE-SchrittMacher RV6
 U 1 1 56E82F1B
 P 8200 1300
 F 0 "RV6" H 8200 1220 50  0000 C CNN
@@ -580,13 +558,11 @@ F 3 "" H 8500 2300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8200 2200 8200 2800
-Wire Wire Line
 	8200 2800 8500 2800
 Wire Wire Line
 	8200 1800 8400 1800
 Wire Wire Line
-	8200 1450 8200 1800
+	8200 1450 8200 2150
 Wire Wire Line
 	8350 1300 8400 1300
 Text HLabel 7700 2150 3    60   Input ~ 0
@@ -604,9 +580,11 @@ GND
 Wire Wire Line
 	7700 900  7700 850 
 $Comp
-L LED D11
+L LED-RESCUE-SchrittMacher D11
 U 1 1 56E839E7
 P 900 3900
+AR Path="/56E839E7" Ref="D11"  Part="1" 
+AR Path="/56E7296A/56E839E7" Ref="D11"  Part="1" 
 F 0 "D11" H 900 4000 50  0000 C CNN
 F 1 "LED" H 900 3800 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 900 3900 50  0001 C CNN
@@ -662,13 +640,8 @@ F 3 "" H 1200 5200 50  0000 C CNN
 	1    1200 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1200 4950 1200 5050
-Wire Wire Line
-	1400 5000 1200 5000
-Connection ~ 1200 5000
 $Comp
-L POT RV7
+L POT-RESCUE-SchrittMacher RV7
 U 1 1 56E83A10
 P 1400 4100
 F 0 "RV7" H 1400 4020 50  0000 C CNN
@@ -692,13 +665,11 @@ F 3 "" H 1700 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1400 5000 1400 5600
-Wire Wire Line
 	1400 5600 1700 5600
 Wire Wire Line
 	1400 4600 1600 4600
 Wire Wire Line
-	1400 4250 1400 4600
+	1400 4250 1400 4950
 Wire Wire Line
 	1550 4100 1600 4100
 Text HLabel 900  4950 3    60   Input ~ 0
@@ -716,9 +687,11 @@ GND
 Wire Wire Line
 	900  3700 900  3650
 $Comp
-L LED D12
+L LED-RESCUE-SchrittMacher D12
 U 1 1 56E83EFB
 P 2600 3900
+AR Path="/56E83EFB" Ref="D12"  Part="1" 
+AR Path="/56E7296A/56E83EFB" Ref="D12"  Part="1" 
 F 0 "D12" H 2600 4000 50  0000 C CNN
 F 1 "LED" H 2600 3800 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 2600 3900 50  0001 C CNN
@@ -774,13 +747,8 @@ F 3 "" H 2900 5200 50  0000 C CNN
 	1    2900 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2900 4950 2900 5050
-Wire Wire Line
-	3100 5000 2900 5000
-Connection ~ 2900 5000
 $Comp
-L POT RV8
+L POT-RESCUE-SchrittMacher RV8
 U 1 1 56E83F24
 P 3100 4100
 F 0 "RV8" H 3100 4020 50  0000 C CNN
@@ -804,13 +772,11 @@ F 3 "" H 3400 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 5000 3100 5600
-Wire Wire Line
 	3100 5600 3400 5600
 Wire Wire Line
 	3100 4600 3300 4600
 Wire Wire Line
-	3100 4250 3100 4600
+	3100 4250 3100 4950
 Wire Wire Line
 	3250 4100 3300 4100
 Text HLabel 2600 4950 3    60   Input ~ 0
@@ -828,9 +794,11 @@ GND
 Wire Wire Line
 	2600 3700 2600 3650
 $Comp
-L LED D13
+L LED-RESCUE-SchrittMacher D13
 U 1 1 56E84416
 P 4300 3900
+AR Path="/56E84416" Ref="D13"  Part="1" 
+AR Path="/56E7296A/56E84416" Ref="D13"  Part="1" 
 F 0 "D13" H 4300 4000 50  0000 C CNN
 F 1 "LED" H 4300 3800 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 4300 3900 50  0001 C CNN
@@ -886,13 +854,8 @@ F 3 "" H 4600 5200 50  0000 C CNN
 	1    4600 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4600 4950 4600 5050
-Wire Wire Line
-	4800 5000 4600 5000
-Connection ~ 4600 5000
 $Comp
-L POT RV9
+L POT-RESCUE-SchrittMacher RV9
 U 1 1 56E8443F
 P 4800 4100
 F 0 "RV9" H 4800 4020 50  0000 C CNN
@@ -916,13 +879,11 @@ F 3 "" H 5100 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4800 5000 4800 5600
-Wire Wire Line
 	4800 5600 5100 5600
 Wire Wire Line
 	4800 4600 5000 4600
 Wire Wire Line
-	4800 4250 4800 4600
+	4800 4250 4800 4950
 Wire Wire Line
 	4950 4100 5000 4100
 Text HLabel 4300 4950 3    60   Input ~ 0
@@ -940,9 +901,11 @@ GND
 Wire Wire Line
 	4300 3700 4300 3650
 $Comp
-L LED D14
+L LED-RESCUE-SchrittMacher D14
 U 1 1 56E849EE
 P 6000 3900
+AR Path="/56E849EE" Ref="D14"  Part="1" 
+AR Path="/56E7296A/56E849EE" Ref="D14"  Part="1" 
 F 0 "D14" H 6000 4000 50  0000 C CNN
 F 1 "LED" H 6000 3800 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 6000 3900 50  0001 C CNN
@@ -998,13 +961,8 @@ F 3 "" H 6300 5200 50  0000 C CNN
 	1    6300 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6300 4950 6300 5050
-Wire Wire Line
-	6500 5000 6300 5000
-Connection ~ 6300 5000
 $Comp
-L POT RV10
+L POT-RESCUE-SchrittMacher RV10
 U 1 1 56E84A17
 P 6500 4100
 F 0 "RV10" H 6500 4020 50  0000 C CNN
@@ -1028,13 +986,11 @@ F 3 "" H 6800 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6500 5000 6500 5600
-Wire Wire Line
 	6500 5600 6800 5600
 Wire Wire Line
 	6500 4600 6700 4600
 Wire Wire Line
-	6500 4250 6500 4600
+	6500 4250 6500 4950
 Wire Wire Line
 	6650 4100 6700 4100
 Text HLabel 6000 4950 3    60   Input ~ 0
@@ -1052,9 +1008,11 @@ GND
 Wire Wire Line
 	6000 3700 6000 3650
 $Comp
-L LED D15
+L LED-RESCUE-SchrittMacher D15
 U 1 1 56E852B3
 P 7700 3900
+AR Path="/56E852B3" Ref="D15"  Part="1" 
+AR Path="/56E7296A/56E852B3" Ref="D15"  Part="1" 
 F 0 "D15" H 7700 4000 50  0000 C CNN
 F 1 "LED" H 7700 3800 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 7700 3900 50  0001 C CNN
@@ -1110,13 +1068,8 @@ F 3 "" H 8000 5200 50  0000 C CNN
 	1    8000 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8000 4950 8000 5050
-Wire Wire Line
-	8200 5000 8000 5000
-Connection ~ 8000 5000
 $Comp
-L POT RV11
+L POT-RESCUE-SchrittMacher RV11
 U 1 1 56E852DC
 P 8200 4100
 F 0 "RV11" H 8200 4020 50  0000 C CNN
@@ -1140,13 +1093,11 @@ F 3 "" H 8500 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8200 5000 8200 5600
-Wire Wire Line
 	8200 5600 8500 5600
 Wire Wire Line
 	8200 4600 8400 4600
 Wire Wire Line
-	8200 4250 8200 4600
+	8200 4250 8200 4950
 Wire Wire Line
 	8350 4100 8400 4100
 Text HLabel 7700 4950 3    60   Input ~ 0
@@ -1183,4 +1134,74 @@ Wire Wire Line
 	2600 4650 2600 4600
 Wire Wire Line
 	900  4650 900  4600
+Wire Wire Line
+	1250 2250 1450 2250
+Wire Wire Line
+	1450 2250 1450 2800
+Wire Wire Line
+	1450 2150 1250 2150
+Connection ~ 1450 1800
+Wire Wire Line
+	2900 2250 3100 2250
+Wire Wire Line
+	3100 2250 3100 2800
+Wire Wire Line
+	3100 2150 2900 2150
+Connection ~ 3100 1800
+Wire Wire Line
+	4800 2800 4800 2250
+Wire Wire Line
+	4800 2250 4600 2250
+Wire Wire Line
+	4800 2150 4600 2150
+Connection ~ 4800 1800
+Wire Wire Line
+	6300 2250 6500 2250
+Wire Wire Line
+	6500 2250 6500 2800
+Wire Wire Line
+	6500 2150 6300 2150
+Connection ~ 6500 1800
+Wire Wire Line
+	8000 2250 8200 2250
+Wire Wire Line
+	8200 2250 8200 2800
+Wire Wire Line
+	8200 2150 8000 2150
+Connection ~ 8200 1800
+Wire Wire Line
+	1200 5050 1400 5050
+Wire Wire Line
+	1400 5050 1400 5600
+Wire Wire Line
+	1400 4950 1200 4950
+Connection ~ 1400 4600
+Wire Wire Line
+	2900 5050 3100 5050
+Wire Wire Line
+	3100 5050 3100 5600
+Wire Wire Line
+	3100 4950 2900 4950
+Connection ~ 3100 4600
+Wire Wire Line
+	4600 5050 4800 5050
+Wire Wire Line
+	4800 5050 4800 5600
+Wire Wire Line
+	4800 4950 4600 4950
+Connection ~ 4800 4600
+Wire Wire Line
+	6300 5050 6500 5050
+Wire Wire Line
+	6500 5050 6500 5600
+Wire Wire Line
+	6500 4950 6300 4950
+Connection ~ 6500 4600
+Wire Wire Line
+	8000 5050 8200 5050
+Wire Wire Line
+	8200 5050 8200 5600
+Wire Wire Line
+	8200 4950 8000 4950
+Connection ~ 8200 4600
 $EndSCHEMATC

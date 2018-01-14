@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SchrittMacher-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -531,15 +532,15 @@ Wire Wire Line
 $Comp
 L GND #PWR011
 U 1 1 570C595D
-P 4550 2350
-F 0 "#PWR011" H 4550 2100 50  0001 C CNN
-F 1 "GND" H 4550 2200 50  0000 C CNN
-F 2 "" H 4550 2350 50  0000 C CNN
-F 3 "" H 4550 2350 50  0000 C CNN
-	1    4550 2350
-	1    0    0    -1  
+P 4550 900
+F 0 "#PWR011" H 4550 650 50  0001 C CNN
+F 1 "GND" H 4550 750 50  0000 C CNN
+F 2 "" H 4550 900 50  0000 C CNN
+F 3 "" H 4550 900 50  0000 C CNN
+	1    4550 900 
+	-1   0    0    1   
 $EndComp
-Text GLabel 4550 900  1    60   Input ~ 0
+Text GLabel 4550 2350 3    60   Input ~ 0
 VCC
 Wire Wire Line
 	5600 900  5850 900 
