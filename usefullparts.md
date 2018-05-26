@@ -7,6 +7,7 @@
 | 4051	   | Multiplexer	                 | can also be used as (8) Stepsequencer but can switch also analog signals  |
 | 4066     | Quad Analog Switch            | can be used for digital signal switching                                  |
 | 4093	   | Hex Schmitt trigger           | square wave oscilators                                                    |
+| 4089     | Binary Rate Multiplier        |                                                                           |
 | 40106	   | Hex inverting Schmitt trigger | square wave oscilators                                                    |
 | XR2209	 | Function Generator	           | can create square and triangle waveforms 10Hz - 1MHz                      |
 | CEM3340	 | VCO	                         | rare - used in vintage synts                                              |
