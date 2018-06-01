@@ -30,6 +30,12 @@
 
 [Design Your Own Distortion](http://www.generalguitargadgets.com/how-to-build-it/technical-help/articles/design-distortion/)
 
+[Melody Generator](http://electro-music.com/forum/topic-27239-50.html)
+
+[ericarcher diy modules](http://www.ericarcher.net/uncategorized/document-links/)
+
+[electro-music.com chip music subforum](http://www.electro-music.com/forum/forum-160.html)
+
 Step Sequencers
 ===============
 
